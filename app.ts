@@ -1,5 +1,7 @@
-let revenue = 1000;
-let bonus = 500;
+let revenue: number = 1000;
+let bonus: number = 500;
+let c: string = "sdt";
+let d: boolean = true;
 
-let res = revenue + bonus;
+let res: number = revenue + bonus;
 console.log(res)
