@@ -50,6 +50,15 @@ action(1)
 action(2)
 
 
+function compute() {
+    return 3;
+}
+
+enum Roles {
+    ADMIN = 1,
+    USER = compute()
+}
+
 
 
 
