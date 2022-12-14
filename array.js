@@ -31,11 +31,4 @@ function action(status) {
 action(StatusCode.SUCCESS);
 action(1);
 action(2);
-function compute() {
-    return 3;
-}
-var Roles;
-(function (Roles) {
-    Roles[Roles["ADMIN"] = 1] = "ADMIN";
-    Roles[Roles["USER"] = compute()] = "USER";
-})(Roles || (Roles = {}));
+const res2 = 1 /* Roles.ADMIN */;

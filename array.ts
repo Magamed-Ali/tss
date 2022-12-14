@@ -50,15 +50,11 @@ action(1)
 action(2)
 
 
-function compute() {
-    return 3;
-}
-
-enum Roles {
+const enum Roles {
     ADMIN = 1,
-    USER = compute()
+    USER = 2
 }
 
-
+const res2 = Roles.ADMIN;
 
 
