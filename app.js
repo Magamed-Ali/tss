@@ -28,3 +28,4 @@ const user = {
     }
 };
 console.log(getName(user));
+console.log(user.city);
